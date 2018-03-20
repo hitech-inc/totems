@@ -36,7 +36,7 @@ class BackendController extends Controller
 
         if ($user->hasRole('admin'))
         {
-            return redirect('/backend');
+            return redirect('/');
         }
         
         return redirect('/');
